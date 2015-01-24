@@ -1,20 +1,14 @@
 # euler-problems
 
-FIXME: description
-
-## Installation
-
-Download from http://example.com/FIXME.
+A collection of solutions to the famous set of problems done in Clojure
 
 ## Usage
-
-FIXME: explanation
 
     $ java -jar euler-problems-0.1.0-standalone.jar [args]
 
 ## Options
 
-FIXME: listing of options this app accepts.
+...
 
 ## Examples
 
@@ -30,7 +24,6 @@ FIXME: listing of options this app accepts.
 
 ## License
 
-Copyright © 2015 FIXME
+Copyright © 2015 Memoizr Labs
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Distributed under the GPLv3 License.
