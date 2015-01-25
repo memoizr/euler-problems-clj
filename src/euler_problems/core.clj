@@ -24,6 +24,7 @@
 (require '[euler-problems.names-scores :as names-scores])
 (require '[euler-problems.distinct-prime-factors :as distinct-prime-factors])
 (require '[euler-problems.self-powers :as self-powers])
+(require '[euler-problems.non-abundant-sums :as non-abundant-sums])
 
 (defn -main
   "Run problems"
