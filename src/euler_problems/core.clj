@@ -26,6 +26,7 @@
 (require '[euler-problems.self-powers :as self-powers])
 (require '[euler-problems.non-abundant-sums :as non-abundant-sums])
 (require '[euler-problems.quadratic-primes :as quadratic-primes])
+(require '[euler-problems.number-spiral-diagonals :as number-spiral-diagonals])
 
 (defn -main
   "Run problems"
@@ -54,5 +55,6 @@
   ;(println (self-powers/main))
   ;(println (distinct-prime-factors/main))
   ;(println (non-abundant-sums/main))
-  (println (quadratic-primes/main))
+  ;(println (quadratic-primes/main))
+  (println (number-spiral-diagonals/main))
   )
