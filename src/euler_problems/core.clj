@@ -25,6 +25,7 @@
 (require '[euler-problems.distinct-prime-factors :as distinct-prime-factors])
 (require '[euler-problems.self-powers :as self-powers])
 (require '[euler-problems.non-abundant-sums :as non-abundant-sums])
+(require '[euler-problems.quadratic-primes :as quadratic-primes])
 
 (defn -main
   "Run problems"
@@ -52,5 +53,6 @@
   ;(println (names-scores/main))
   ;(println (self-powers/main))
   ;(println (distinct-prime-factors/main))
-  (println (non-abundant-sums/main))
+  ;(println (non-abundant-sums/main))
+  (println (quadratic-primes/main))
   )
