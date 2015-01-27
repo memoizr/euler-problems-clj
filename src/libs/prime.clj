@@ -14,7 +14,7 @@
 ;; much faster than the above method
 
 (defn prime? [n]
-  (.isProbablePrime (BigInteger/valueOf n) 6))
+    (.isProbablePrime (BigInteger/valueOf n) 6))
 
 (defn lazy-primes []
   (filter prime? (drop 2 (range))))
