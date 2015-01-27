@@ -28,6 +28,7 @@
 (require '[euler-problems.quadratic-primes :as quadratic-primes])
 (require '[euler-problems.number-spiral-diagonals :as number-spiral-diagonals])
 (require '[euler-problems.digit-fifth-powers :as digit-fifth-powers])
+(require '[euler-problems.digit-factorials :as digit-factorials])
 
 (defn -main
   "Run problems"
@@ -58,5 +59,6 @@
   ;(println (non-abundant-sums/main))
   ;(println (quadratic-primes/main))
   ;(println (number-spiral-diagonals/main))
-  (println (digit-fifth-powers/main))
+  ;(println (digit-fifth-powers/main))
+  (time (digit-factorials/main))
   )
