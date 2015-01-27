@@ -17,3 +17,11 @@
     (if (= x 0) total
       (recur (dec x) (+ x total))
     )))
+
+(defn factorial [x]
+  (if
+    (>= 0 x) 1
+    (loop [n x acc 1]
+      (cond
+        (= 1 n) acc
+        :else (recur (dec n) (*' acc n))))))
