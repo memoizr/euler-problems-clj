@@ -30,6 +30,7 @@
 (require '[euler-problems.digit-fifth-powers :as digit-fifth-powers])
 (require '[euler-problems.digit-factorials :as digit-factorials])
 (require '[euler-problems.circular-primes :as circular-primes])
+(require '[euler-problems.truncatable-primes :as truncatable-primes])
 
 (defn -main
   "Run problems"
@@ -62,5 +63,6 @@
   ;(println (number-spiral-diagonals/main))
   ;(println (digit-fifth-powers/main))
   ;(println (digit-factorials/main))
-  (println (circular-primes/main))
+  ;(println (circular-primes/main))
+  (println (truncatable-primes/main))
   )
